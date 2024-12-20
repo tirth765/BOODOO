@@ -31,12 +31,14 @@ html {
     color: var(--primary-color);
     font-weight: bold;
     margin-bottom: 1.8rem;
+    text-transform: uppercase;
 }
 
 .sub-title {
     font-size: 8.4rem;
     color: white;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .paragraph {
@@ -57,9 +59,7 @@ html {
     /* text-align: center; */
 }
 
-section {
-    padding: 200px 0;
-}
+
 
 
 /* ********************Header******************** */
@@ -144,6 +144,7 @@ header {
     width: 100%;
     text-align: center;
     /* align-items: center; */
+    padding-top: 200px;
     background-image: linear-gradient(0, #000000 40%, var(--primary-color) 200%);
 }
 
@@ -198,6 +199,7 @@ header {
 
     height: 100%;
     width: 100%;
+    padding-top: 200px;
     /* text-align: center; */
     /* align-items: center; */
     background-image: linear-gradient(#000000 40%, var(--primary-color) 200%);
@@ -223,6 +225,7 @@ header {
 /* *******************Services******************* */
 
 #services {
+    padding-top: 200px;
     background-image: linear-gradient(0, #000000 40%, var(--primary-color) 200%);
 }
 
@@ -235,7 +238,6 @@ header {
     font-size: 8.4rem;
     font-weight: bold;
     /* max-width: 143rem; */
-    text-transform: uppercase;
 }
 
 .ser-img {
@@ -272,6 +274,7 @@ header {
 /* **********************Why********************* */
 
 #why {
+    padding-top: 200px;
     background-image: linear-gradient(#000000 40%, var(--primary-color) 200%);
     text-align: center;
 }
@@ -305,6 +308,51 @@ header {
 .why-data .why-details:last-child{
     padding-left: 5.5rem;
     padding-right: 0;
+}
+
+/* ********************************************** */
+
+/* *******************Horoscope******************* */
+
+#horoscope {
+    padding-top: 200px;
+    background-image: linear-gradient(0, #000000 40%, var(--primary-color) 200%);
+    text-align: center;
+} 
+#horoscope h1{
+    max-width: 105rem;
+    margin: 0 auto;
+}
+.horo-data {
+    margin: 10rem 0;
+    justify-content: space-between;
+    row-gap: 10rem;
+}
+
+.horo-details {
+    display: flex;
+    justify-content: space-between;
+    width: 43.2rem ;
+  
+}
+
+
+.horo-sub-data {
+    margin: 2.4rem 0 2.4rem 7.5rem;
+    /* align-items: center; */
+}
+.horo-sub-data h4{
+    color: white;
+    font-size: 5.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+.horo-sub-data p{
+    color: white;
+    font-size: 1.8rem;
+    text-align: left;
+    
 }
 
 /* ********************************************** */
@@ -423,7 +471,6 @@ header {
 
     .about-data-detail h1 {
         text-align: center;
-        text-transform: uppercase;
 
     }
 
@@ -452,7 +499,7 @@ header {
 
     .super-sub-data {
         font-size: 10rem;
-        margin-top: 10.4rem;
+        margin-top: 6.4rem;
     }
 
     .super-data-left h1 {
@@ -518,7 +565,6 @@ header {
 
     .about-data-detail h1 {
         text-align: center;
-        text-transform: uppercase;
 
     }
 
@@ -639,8 +685,6 @@ header {
 
     .about-data-detail h1 {
         text-align: left;
-        text-transform: uppercase;
-
     }
 
     .super-data-left h1 {
@@ -718,6 +762,9 @@ header {
     .ser-img {
         margin: 7.5rem;
         padding: 5rem 6rem;
+    }
+    .super-data-img .col-xxl-3 img {
+        margin-bottom: 0;
     }
 
 }
