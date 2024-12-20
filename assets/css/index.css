@@ -220,7 +220,7 @@ header {
 
 /* ********************************************** */
 
-/* *******************services******************* */
+/* *******************Services******************* */
 
 #services {
     background-image: linear-gradient(0, #000000 40%, var(--primary-color) 200%);
@@ -241,11 +241,7 @@ header {
 .ser-img {
     margin: 7.5rem;
     border: 2px solid white;
-}
-
-.ser-img {
     padding: 5rem 6rem;
-
 }
 
 .ser-img img {
@@ -264,15 +260,56 @@ header {
     margin-top: 5rem;
 }
 
-.ser-img p{
+.ser-img p {
     color: white;
     /* text-align: ; */
     font-size: 1.8rem;
-   margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 /* ********************************************** */
 
+/* **********************Why********************* */
+
+#why {
+    background-image: linear-gradient(#000000 40%, var(--primary-color) 200%);
+    text-align: center;
+}
+
+.why-data {
+    margin-top: 17.2rem;
+    justify-content: center;
+    row-gap: 10rem;
+}
+
+.why-data h4 {
+    font-size: 3.2rem;
+    color: white;
+    margin: 3rem 0;
+}
+
+.why-data p {   
+    font-size: 1.8rem;
+    color: white;
+}
+
+.why-details{
+    padding: 0 5.5rem;
+}
+
+.why-data .why-details:first-child{
+    padding-right: 5.5rem;
+    padding-left: 0;
+}
+
+.why-data .why-details:last-child{
+    padding-left: 5.5rem;
+    padding-right: 0;
+}
+
+/* ********************************************** */
+
+/* 1rem = 8px */
 @media screen and (max-width: 575px) {
     html {
         font-size: 50%;
@@ -328,8 +365,14 @@ header {
     .super-data-img .col-xxl-3 img {
         margin-bottom: 10rem;
     }
+
+    .ser-img p {
+        text-align: center;
+        margin: 2rem auto;
+    }
 }
 
+/* 1rem = 8px */
 @media screen and (min-width: 575px) {
     html {
         font-size: 50%;
@@ -416,9 +459,28 @@ header {
         font-size: 10rem;
     }
 
+    .ser-img p {
+        text-align: center;
+        margin: 2rem auto;
+    }
+    .why-details{
+        padding: 0rem;
+    }
+    
+    .why-data .why-details:first-child{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .why-data .why-details:last-child{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
 
 }
 
+/* 1rem = 8px */
 @media screen and (min-width: 768px) {
     .about-img {
         justify-content: center;
@@ -465,10 +527,49 @@ header {
         text-align: center;
 
     }
+    .why-details{
+        padding: 0 5.5rem;
+    }
+    
+    .why-data .why-details:first-child{
+        padding-right: 5.5rem;
+        padding-left: 0;
+    }
+    
+    .why-data .why-details:last-child{
+        padding-left: 5.5rem;
+        padding-right: 0;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
 
+/* 1rem = 8px */
 @media screen and (min-width: 992px) {
     .hero-data span {
         font-size: 9rem;
@@ -480,6 +581,15 @@ header {
         height: 65vh;
     }
 
+    .ser-img p {
+        text-align: center;
+        margin: 2rem 0 0 0;
+    }
+
+    .ser-img {
+        margin: 4rem;
+        padding: 4rem 5rem
+    }
 
 
 
@@ -487,6 +597,7 @@ header {
 
 }
 
+/* 1rem = 9px */
 @media screen and (min-width: 1200px) {
     html {
         font-size: 56.25%;
@@ -541,8 +652,17 @@ header {
         margin-top: 10.4rem;
     }
 
+    .ser-img p {
+        text-align: left;
+    }
+
+    .ser-img {
+        padding: 5rem 6rem;
+    }
+
 }
 
+/* 1rem = 9px */
 @media screen and (min-width: 1400px) {
     .about-img {
         justify-content: space-between;
@@ -595,8 +715,14 @@ header {
         margin-top: 0rem;
     }
 
+    .ser-img {
+        margin: 7.5rem;
+        padding: 5rem 6rem;
+    }
+
 }
 
+/* 1rem = 10px */
 @media screen and (min-width: 1700px) {
     html {
         font-size: 62.5%;
