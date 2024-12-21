@@ -59,9 +59,6 @@ html {
     /* text-align: center; */
 }
 
-
-
-
 /* ********************Header******************** */
 
 header .nav-item a {
@@ -167,8 +164,6 @@ header {
     padding-left: 11.5rem;
 }
 
-
-
 .about-data-detail h1 {
     margin-top: 1.8rem;
     margin-bottom: 10.5rem;
@@ -195,8 +190,7 @@ header {
 
 /* *********************Super******************** */
 
-#super {
-
+#super { 
     height: 100%;
     width: 100%;
     padding-top: 200px;
@@ -324,21 +318,27 @@ header {
     margin: 0 auto;
 }
 .horo-data {
-    margin: 10rem 0;
-    justify-content: space-between;
+    margin: 10rem 0 5rem 0;
     row-gap: 10rem;
 }
-
-.horo-details {
-    display: flex;
-    justify-content: space-between;
-    width: 43.2rem ;
-  
+.horo-data img {
+    width: 16rem;
+    height: 16rem;
 }
 
+.horo-details-1 {
+    display: flex;
+    margin-right: auto;
+}
+
+.horo-details-2 {
+    display: flex;
+    margin-left: auto;
+  
+} 
 
 .horo-sub-data {
-    margin: 2.4rem 0 2.4rem 7.5rem;
+    margin: 2.4rem 0 2.4rem 4rem;
     /* align-items: center; */
 }
 .horo-sub-data h4{
@@ -354,7 +354,6 @@ header {
     text-align: left;
     
 }
-
 /* ********************************************** */
 
 /* 1rem = 8px */
@@ -366,70 +365,6 @@ header {
     .hero-data span {
         font-size: 5rem;
         max-width: 1567px;
-
-    }
-
-    .hero-data p {
-        font-size: 1.5rem;
-    }
-
-    #hero {
-        height: 60vh;
-    }
-
-    .my-btn {
-        margin-top: 5rem;
-        font-size: 2rem;
-        width: 21rem;
-        height: 5rem;
-    }
-
-    .super-data {
-        text-align: center;
-
-
-    }
-
-    .super-data-img {
-        margin-top: 20rem;
-    }
-
-    .super-data-left p {
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .super-data-left h1 {
-        font-size: 5rem;
-
-        padding-right: 0;
-    }
-
-    .super-sub-data {
-        font-size: 5rem;
-        margin-top: 10.4rem;
-    }
-
-    .super-data-img .col-xxl-3 img {
-        margin-bottom: 10rem;
-    }
-
-    .ser-img p {
-        text-align: center;
-        margin: 2rem auto;
-    }
-}
-
-/* 1rem = 8px */
-@media screen and (min-width: 575px) {
-    html {
-        font-size: 50%;
-    }
-
-    .hero-data span {
-        font-size: 5rem;
-        max-width: 1567px;
-
     }
 
     .hero-data p {
@@ -451,7 +386,6 @@ header {
 
     #about .my-btn {
         padding: 1rem;
-
     }
 
     .about-data-img p {
@@ -471,13 +405,10 @@ header {
 
     .about-data-detail h1 {
         text-align: center;
-
     }
 
     .about-data-detail {
-
         text-align: center;
-
     }
 
     .super-data {
@@ -510,6 +441,14 @@ header {
         text-align: center;
         margin: 2rem auto;
     }
+    .ser-img h3 {
+        font-size: 2.2rem;
+    }
+
+    .ser-img p {
+        font-size: 1.2rem;
+    }
+    
     .why-details{
         padding: 0rem;
     }
@@ -523,11 +462,149 @@ header {
         padding-left: 0;
         padding-right: 0;
     }
-
-
+    .horo-details-1 { 
+        justify-content: center;
+    }
+    .horo-details-2 { 
+        justify-content: center;
+    }
+    .horo-data {
+        margin: 10rem 0 0 0;
+        row-gap: 10rem;
+    }
+    .horo-data img {
+        width: 17rem;
+        height: 17rem;
+    }
+    #horoscope h1 {
+        font-size: 7rem;
+    }
 }
 
-/* 1rem = 8px */
+/* 1rem = 8px sm */
+@media screen and (min-width: 575px) {
+    html {
+        font-size: 50%;
+    }
+
+    .hero-data span {
+        font-size: 5rem;
+        max-width: 1567px;
+    }
+
+    .hero-data p {
+        font-size: 1.5rem;
+    }
+
+    #hero {
+        height: 60vh;
+    }
+
+    .my-btn {
+        margin-top: 5rem;
+        padding: 1rem 5rem;
+        font-size: 1.8rem;
+        width: 21rem;
+        height: 5rem;
+
+    }
+
+    #about .my-btn {
+        padding: 1rem;
+    }
+
+    .about-data-img p {
+        margin: 0 auto;
+        text-align: center;
+        border-right: none;
+    }
+
+    .about-data-detail {
+        padding-left: 0;
+    }
+
+    .about-data-detail h5 {
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .about-data-detail h1 {
+        text-align: center;
+    }
+
+    .about-data-detail {
+        text-align: center;
+    }
+
+    .super-data {
+        text-align: center;
+    }
+
+    .super-data-img {
+        margin-top: 20rem;
+    }
+
+    .super-data-left p {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .super-data-img .col-xxl-3 img {
+        margin-bottom: 10rem;
+    }
+
+    .super-sub-data {
+        font-size: 10rem;
+        margin-top: 6.4rem;
+    }
+
+    .super-data-left h1 {
+        font-size: 10rem;
+    }
+
+    .ser-img p {
+        text-align: center;
+        margin: 2rem auto;
+    }
+    .ser-img h3 {
+        font-size: 4.2rem;
+    }
+    .ser-img p {
+        font-size: 1.8rem;
+    }
+    .why-details{
+        padding: 0rem;
+    }
+    
+    .why-data .why-details:first-child{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .why-data .why-details:last-child{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .horo-details-1 { 
+        justify-content: center;
+    }
+    .horo-details-2 { 
+        justify-content: center;
+    }
+    .horo-data {
+        margin: 10rem 0 0 0;
+        row-gap: 10rem;
+    }
+    .horo-data img {
+        width: 17rem;
+        height: 17rem;
+    }
+    #horoscope h1 {
+        font-size: 8.4rem;
+    }
+}
+
+/* 1rem = 8px md*/
 @media screen and (min-width: 768px) {
     .about-img {
         justify-content: center;
@@ -536,8 +613,6 @@ header {
     .hero-data span {
         font-size: 7rem;
         max-width: 1567px;
-
-
     }
 
     .hero-data p {
@@ -565,13 +640,10 @@ header {
 
     .about-data-detail h1 {
         text-align: center;
-
     }
 
     .about-data-detail {
-
         text-align: center;
-
     }
     .why-details{
         padding: 0 5.5rem;
@@ -587,35 +659,9 @@ header {
         padding-right: 0;
     }
     
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
-/* 1rem = 8px */
+/* 1rem = 8px lg*/
 @media screen and (min-width: 992px) {
     .hero-data span {
         font-size: 9rem;
@@ -636,14 +682,11 @@ header {
         margin: 4rem;
         padding: 4rem 5rem
     }
-
-
-
-
+   
 
 }
 
-/* 1rem = 9px */
+/* 1rem = 9px xl*/
 @media screen and (min-width: 1200px) {
     html {
         font-size: 56.25%;
@@ -703,10 +746,37 @@ header {
     .ser-img {
         padding: 5rem 6rem;
     }
-
+     .horo-sub-data h4 {
+        font-size: 4rem;
+    }
+    .horo-sub-data p {
+        font-size: 1.2rem;
+    }
+    .horo-data img {
+        width: 15rem;
+        height: 15rem;
+    }
+    .horo-details-1 { 
+            margin-right: 0;
+    }
+    .horo-details-2 { 
+        margin-left: 0;
+    }
+    
+    .horo-details-2 { 
+        justify-content: left;
+    }
+    .horo-data {
+        margin: 10rem 0 5rem 0;
+        row-gap: 10rem;
+        justify-content: space-between;
+    }
+    #horoscope h1{
+        max-width: 105rem;
+    }
 }
 
-/* 1rem = 9px */
+/* 1rem = 9px xxl*/
 @media screen and (min-width: 1400px) {
     .about-img {
         justify-content: space-between;
@@ -766,7 +836,29 @@ header {
     .super-data-img .col-xxl-3 img {
         margin-bottom: 0;
     }
+   
+    .horo-sub-data h4{ 
+        font-size: 5.4rem;
+    }
+    .horo-sub-data p{
+        font-size: 1.8rem;
+    }
 
+    .horo-details-1 { 
+        margin-right: auto;
+    }
+    .horo-details-2 { 
+        margin-left: auto;
+    }
+
+    /* .horo-data {
+        justify-content: left;
+    } */
+
+    .horo-data img {
+        width: 16rem;
+        height: 16rem;
+    }
 }
 
 /* 1rem = 10px */
@@ -815,4 +907,6 @@ header {
     .super-data-img .col-xxl-3 img {
         margin-bottom: 0;
     }
+
+    
 }
