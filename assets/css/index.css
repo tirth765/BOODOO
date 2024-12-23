@@ -354,6 +354,104 @@ header {
     text-align: left;
     
 }
+.horo-count {
+    text-align: center;
+    margin-top: 20rem;
+    row-gap: 10rem;
+}
+/* ********************************************** */
+
+/* ******************appointment***************** */
+
+#appointment {
+        padding-top: 200px;
+        background-image: linear-gradient(#000000 40%, var(--primary-color) 200%);
+        color: white;
+}
+.apmt-data {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.plhol-style {
+    padding: 3.3rem 3rem;
+    font-size: 2.4rem;
+    /* background-color: #000000; */
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    width: 44rem;
+    height: 10rem;
+}
+::placeholder {
+    color: white;
+}
+.details-apmt {
+    row-gap: 8rem;
+}
+.detail-list-apmt {
+    padding: 3.3rem 3rem;
+    font-size: 2.4rem;
+    /* background-color: #000000; */
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    width: 44rem;
+    height: 10rem;
+}
+.edit-my-but {
+    margin-top: 8rem !important;
+}
+.apmt-set {
+    margin-top: 22.4rem;
+}
+/* ********************************************** */
+
+/* ******************membership***************** */
+
+#membership {
+    text-align: center;
+    padding-top: 200px;
+    background-image: linear-gradient(0, #000000 40%, var(--primary-color) 200%);
+    color: white;
+}
+
+#membership .sub-title {
+    margin-bottom: 8rem;
+}
+
+.member-data .col-4{
+    border: 2px solid white;
+    padding: 7.7rem;
+    width: 46.6rem;
+}
+.member-data {
+    justify-content: space-between;
+}
+.member-main-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.member-sub-title {
+    font-size: 7.2rem;
+    /* text-align: left !important; */
+}
+.member-sub-type {
+    font-size: 2.4rem;
+    /* text-align: left !important; */
+}
+.tick-member {
+    margin-top: 3rem;
+}
+.tick-member span {
+    margin-left: 2rem;
+    font-size: 1.8rem;
+}
+.tick-member img{
+    margin-bottom: 2rem;
+}
+
 /* ********************************************** */
 
 /* 1rem = 8px */
@@ -479,6 +577,16 @@ header {
     #horoscope h1 {
         font-size: 7rem;
     }
+    #appointment {
+        text-align: center;
+    }
+    .apmt-set {
+        margin-bottom: 20rem;
+    }
+    .apmt-data {
+        text-align: left;
+        margin-left: 13.5rem;
+    }
 }
 
 /* 1rem = 8px sm */
@@ -602,6 +710,16 @@ header {
     #horoscope h1 {
         font-size: 8.4rem;
     }
+    #appointment {
+        text-align: center;
+    }
+    .apmt-set {
+        margin-bottom: 20rem;
+    }
+    .apmt-data {
+        text-align: left;
+        margin-left: 11.5rem;
+    }
 }
 
 /* 1rem = 8px md*/
@@ -658,6 +776,10 @@ header {
         padding-left: 5.5rem;
         padding-right: 0;
     }
+    .apmt-data {
+        text-align: left;
+        margin-left: 22.5rem;
+    }
     
 }
 
@@ -682,7 +804,17 @@ header {
         margin: 4rem;
         padding: 4rem 5rem
     }
-   
+    .apmt-set {
+        margin-bottom: 20rem;
+        text-align: center;
+    }
+    #appointment {
+        text-align: left;
+    }
+    .apmt-data {
+        text-align: left;
+        margin-left: 0;
+    }
 
 }
 
@@ -774,6 +906,8 @@ header {
     #horoscope h1{
         max-width: 105rem;
     }
+    
+   
 }
 
 /* 1rem = 9px xxl*/
@@ -824,11 +958,9 @@ header {
         text-align: left;
         margin: 0;
     }
-
     .super-data-img {
         margin-top: 0rem;
     }
-
     .ser-img {
         margin: 7.5rem;
         padding: 5rem 6rem;
@@ -836,7 +968,7 @@ header {
     .super-data-img .col-xxl-3 img {
         margin-bottom: 0;
     }
-   
+  
     .horo-sub-data h4{ 
         font-size: 5.4rem;
     }
@@ -850,14 +982,13 @@ header {
     .horo-details-2 { 
         margin-left: auto;
     }
-
-    /* .horo-data {
-        justify-content: left;
-    } */
-
     .horo-data img {
         width: 16rem;
         height: 16rem;
+    }   
+    .apmt-set {
+        margin-bottom: 0;
+        text-align: left;
     }
 }
 
@@ -910,3 +1041,7 @@ header {
 
     
 }
+
+
+
+
