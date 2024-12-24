@@ -183,7 +183,7 @@ header {
 
 #about .my-btn {
     padding: 1.5rem;
-
+    font-weight: bold;
 }
 
 /* ********************************************** */
@@ -364,7 +364,7 @@ header {
 /* ******************appointment***************** */
 
 #appointment {
-        padding-top: 200px;
+        padding: 200px 0;
         background-image: linear-gradient(#000000 40%, var(--primary-color) 200%);
         color: white;
 }
@@ -401,29 +401,33 @@ header {
 }
 .edit-my-but {
     margin-top: 8rem !important;
+    font-weight: bold;
 }
 .apmt-set {
     margin-top: 22.4rem;
 }
 /* ********************************************** */
+
+/* ********************become******************** */
+
 #become {
-        padding-top: 200px;
+        padding :70px 0;
         position: relative;
-        height: 100vh;
         width: 100%;
         text-align: center;
         background-image: linear-gradient(0,#000000 40%, var(--primary-color) 200%);
+       
 }
 
 #become::before {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url(../img/hero-banner.png);
-    background-size: 100% auto;
+    background-image: url(../img/hero-full-banner.png);
+    background-size: 80% auto;
     background-repeat: no-repeat;
     opacity: 0.2;
-
+    background-position: center center;
 }
 
 #become p {
@@ -431,8 +435,10 @@ header {
     font-size: 1.8rem;
     max-width: 95rem;
     margin: 8rem auto;
+    margin-bottom: 0;
 }
 
+/* ********************************************** */
 
 /* ******************membership***************** */
 
@@ -447,46 +453,58 @@ header {
     margin-bottom: 8rem;
 }
 
-.member-data .col-4{
+#membership .row {
+    margin: 0 -40px;
+}
+
+.mem-data-cols{
+    padding: 4rem;
+}
+.mem-padi {
     border: 2px solid white;
     padding: 7.7rem;
-    width: 46.6rem;
 }
+.mem-data-cols :hover {
+    background-color:var(--primary-color);
+}
+
+.mem-data-cols :hover .mem-btn {
+    background-color:white;
+    color: var(--primary-color);
+}
+
 .member-data {
     justify-content: space-between;
 }
+
 .member-main-title {
     font-size: 2.4rem;
     font-weight: bold;
     margin-bottom: 3rem;
 }
+
 .member-sub-title {
     font-size: 7.2rem;
-    /* text-align: left !important; */
 }
+
 .member-sub-type {
     font-size: 2.4rem;
-    /* text-align: left !important; */
 }
+
 .tick-member {
     margin-top: 3rem;
 }
+
 .tick-member span {
     margin-left: 2rem;
     font-size: 1.8rem;
 }
+
 .tick-member img{
     margin-bottom: 2rem;
 }
 
-.mem-sub-tit {
-    background-color: #C8191C;
-}
-.mem {
-    background-color: white;
-    color: #C8191C;
-    font-weight: bold;
-}
+
 
 /* ********************************************** */
 
@@ -625,7 +643,18 @@ header {
     }
     .member-data {
         justify-content: center;
-        row-gap: 10rem;
+    }
+    .mem-padi {
+        margin: 0 2rem
+    }
+    #membership .sub-title {
+        font-size: 7rem;
+    }
+    #become .sub-title {
+        font-size: 7rem;
+    }
+    #about .sub-title{
+        font-size: 7rem;
     }
 }
 
@@ -762,9 +791,20 @@ header {
     }
     .member-data {
         justify-content: center;
-        row-gap: 10rem;
     }
-}
+    .mem-padi {
+        margin: 0 8rem
+    }
+    #membership .sub-title {
+        font-size: 8rem;
+    }
+    #become .sub-title {
+        font-size: 8rem;
+    }
+    #about .sub-title{
+        font-size: 8rem;
+    }
+}   
 
 /* 1rem = 8px md*/
 @media screen and (min-width: 768px) {
@@ -824,10 +864,10 @@ header {
         text-align: left;
         margin-left: 22.5rem;
     }
-    .member-data {
-        justify-content: center;
-        row-gap: 10rem;
+    .mem-padi {
+        margin: 0 19rem
     }
+   
     
 }
 
@@ -866,21 +906,13 @@ header {
     .mem-sub-tit {
         background-color: transparent;
     }
-    .mem {
-        background-color: var(--primary-color);
-        color: white;
-    }
     .member-data {
         justify-content: center;
     }
-    .member-data  {
-        column-gap: 10rem;
-        row-gap: 10rem;
+    .mem-padi {
+        margin: 0 35rem
     }
-    .mem-btn {
-        font-size: 1.6rem;
-        padding: 1.3rem ;
-    }
+ 
 }
 
 /* 1rem = 9px xl*/
@@ -972,14 +1004,24 @@ header {
         max-width: 105rem;
     }
     
-    
-    .mem-btn {
-        font-size: 1.6rem;
-        padding: 1.6rem ;
+    .member-data {
+        column-gap: 0rem;
     }
-    
+    .mem-data-cols {
+        padding: 5rem;
+    }
+    .mem-padi {
+        padding: 9rem;
+        margin: 0 0rem;
+    }
+    .mem-btn {
+        padding: 1.6rem 7.7rem;    
+    }
+    .member-data {
+        column-gap: 0;
+        row-gap: 0rem;
+    }
    
-}
 
 /* 1rem = 9px xxl*/
 @media screen and (min-width: 1400px) {
@@ -1061,6 +1103,12 @@ header {
         margin-bottom: 0;
         text-align: left;
     }
+    .mem-data-cols {
+        padding: 3rem;
+    }
+    .mem-padi {
+        padding: 6.7rem;
+    }
 }
 
 /* 1rem = 10px */
@@ -1108,6 +1156,9 @@ header {
 
     .super-data-img .col-xxl-3 img {
         margin-bottom: 0;
+    }
+    .mem-data-cols {
+        padding: 4.8rem;
     }
 
     
