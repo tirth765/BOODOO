@@ -190,7 +190,7 @@ header {
 
 /* *********************Super******************** */
 
-#super { 
+#super {
     height: 100%;
     width: 100%;
     padding-top: 200px;
@@ -285,21 +285,21 @@ header {
     margin: 3rem 0;
 }
 
-.why-data p {   
+.why-data p {
     font-size: 1.8rem;
     color: white;
 }
 
-.why-details{
+.why-details {
     padding: 0 5.5rem;
 }
 
-.why-data .why-details:first-child{
+.why-data .why-details:first-child {
     padding-right: 5.5rem;
     padding-left: 0;
 }
 
-.why-data .why-details:last-child{
+.why-data .why-details:last-child {
     padding-left: 5.5rem;
     padding-right: 0;
 }
@@ -312,15 +312,18 @@ header {
     padding-top: 200px;
     background-image: linear-gradient(0, #000000 40%, var(--primary-color) 200%);
     text-align: center;
-} 
-#horoscope h1{
+}
+
+#horoscope h1 {
     max-width: 105rem;
     margin: 0 auto;
 }
+
 .horo-data {
     margin: 10rem 0 5rem 0;
     row-gap: 10rem;
 }
+
 .horo-data img {
     width: 16rem;
     height: 16rem;
@@ -334,45 +337,51 @@ header {
 .horo-details-2 {
     display: flex;
     margin-left: auto;
-  
-} 
+
+}
 
 .horo-sub-data {
     margin: 2.4rem 0 2.4rem 4rem;
     /* align-items: center; */
 }
-.horo-sub-data h4{
+
+.horo-sub-data h4 {
     color: white;
     font-size: 5.4rem;
     font-weight: bold;
     margin-bottom: 1rem;
     text-align: left;
 }
-.horo-sub-data p{
+
+.horo-sub-data p {
     color: white;
     font-size: 1.8rem;
     text-align: left;
-    
+
 }
+
 .horo-count {
     text-align: center;
     margin-top: 20rem;
     row-gap: 10rem;
 }
+
 /* ********************************************** */
 
 /* ******************appointment***************** */
 
 #appointment {
-        padding: 200px 0;
-        background-image: linear-gradient(#000000 40%, var(--primary-color) 200%);
-        color: white;
+    padding: 200px 0;
+    background-image: linear-gradient(#000000 40%, var(--primary-color) 200%);
+    color: white;
 }
+
 .apmt-data {
     font-size: 3.2rem;
     font-weight: bold;
     margin-bottom: 3rem;
 }
+
 .plhol-style {
     padding: 3.3rem 3rem;
     font-size: 2.4rem;
@@ -383,12 +392,15 @@ header {
     width: 44rem;
     height: 10rem;
 }
+
 ::placeholder {
     color: white;
 }
+
 .details-apmt {
     row-gap: 8rem;
 }
+
 .detail-list-apmt {
     padding: 3.3rem 3rem;
     font-size: 2.4rem;
@@ -399,24 +411,27 @@ header {
     width: 44rem;
     height: 10rem;
 }
+
 .edit-my-but {
     margin-top: 8rem !important;
     font-weight: bold;
 }
+
 .apmt-set {
     margin-top: 22.4rem;
 }
+
 /* ********************************************** */
 
 /* ********************become******************** */
 
 #become {
-        padding :70px 0;
-        position: relative;
-        width: 100%;
-        text-align: center;
-        background-image: linear-gradient(0,#000000 40%, var(--primary-color) 200%);
-       
+    padding: 70px 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(0, #000000 40%, var(--primary-color) 200%);
+
 }
 
 #become::before {
@@ -457,19 +472,21 @@ header {
     margin: 0 -40px;
 }
 
-.mem-data-cols{
+.mem-data-cols {
     padding: 4rem;
 }
+
 .mem-padi {
     border: 2px solid white;
     padding: 7.7rem;
 }
+
 .mem-data-cols :hover {
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 .mem-data-cols :hover .mem-btn {
-    background-color:white;
+    background-color: white;
     color: var(--primary-color);
 }
 
@@ -500,13 +517,86 @@ header {
     font-size: 1.8rem;
 }
 
-.tick-member img{
+.tick-member img {
     margin-bottom: 2rem;
 }
 
 
+/* ********************************************** */
+
+
+/* ********************client******************** */
+
+#client {
+    padding: 200px 0;
+    background-image: linear-gradient(0, #000000 40%, var(--primary-color) 200%);
+    color: white;
+}
+
+#client .sub-title {
+    font-size: 14rem;
+    text-align: center;
+    max-width: 150rem;
+}
+
+#client .swiper {
+    width: 100%;
+    height: 100%;
+    padding: 0 7.8rem;
+}
+#client .swiper-button-next,
+#client  .swiper-button-prev {
+    color: white;
+}
+#client .swiper-slide {
+    text-align: left;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#client .swiper-slide img {
+    display: block;
+    width: 100%;
+    height:50rem;
+    object-fit: cover;
+}
+
+.arrow {
+    text-align: center;
+   margin: 10rem 0 15rem 0;
+}
+
+.client-detail {
+    color: white;
+    position: relative;
+}
+
+.client-detail ::before {
+    content: "";
+    background-image: url(../img/coma.png);
+    position: absolute;
+    top: -40px;
+    left: -22px;
+    bottom: 0;
+    right: 0;
+   background-repeat: no-repeat;
+}
+
+.client-detail p {
+    margin-top: 10rem;
+    font-size: 1.8rem;
+}
+
+.client-detail h4 {
+    margin-top: 1.5rem;
+    font-size: 2.4rem;
+}
+
 
 /* ********************************************** */
+
 
 /* 1rem = 8px */
 @media screen and (max-width: 575px) {
@@ -593,6 +683,7 @@ header {
         text-align: center;
         margin: 2rem auto;
     }
+
     .ser-img h3 {
         font-size: 2.2rem;
     }
@@ -600,60 +691,73 @@ header {
     .ser-img p {
         font-size: 1.2rem;
     }
-    
-    .why-details{
+
+    .why-details {
         padding: 0rem;
     }
-    
-    .why-data .why-details:first-child{
+
+    .why-data .why-details:first-child {
         padding-right: 0;
         padding-left: 0;
     }
-    
-    .why-data .why-details:last-child{
+
+    .why-data .why-details:last-child {
         padding-left: 0;
         padding-right: 0;
     }
-    .horo-details-1 { 
+
+    .horo-details-1 {
         justify-content: center;
     }
-    .horo-details-2 { 
+
+    .horo-details-2 {
         justify-content: center;
     }
+
     .horo-data {
         margin: 10rem 0 0 0;
         row-gap: 10rem;
     }
+
     .horo-data img {
         width: 17rem;
         height: 17rem;
     }
+
     #horoscope h1 {
         font-size: 7rem;
     }
+
     #appointment {
         text-align: center;
     }
+
     .apmt-set {
         margin-bottom: 20rem;
     }
+
     .apmt-data {
         text-align: left;
         margin-left: 13.5rem;
     }
+
     .member-data {
         justify-content: center;
     }
+
     .mem-padi {
         margin: 0 2rem
     }
+
     #membership .sub-title {
         font-size: 7rem;
     }
+
     #become .sub-title {
         font-size: 7rem;
     }
-    #about .sub-title{
+
+    #about .sub-title {
         font-size: 7rem;
     }
 }
@@ -743,68 +847,84 @@ header {
         text-align: center;
         margin: 2rem auto;
     }
+
     .ser-img h3 {
         font-size: 4.2rem;
     }
+
     .ser-img p {
         font-size: 1.8rem;
     }
-    .why-details{
+
+    .why-details {
         padding: 0rem;
     }
-    
-    .why-data .why-details:first-child{
+
+    .why-data .why-details:first-child {
         padding-right: 0;
         padding-left: 0;
     }
-    
-    .why-data .why-details:last-child{
+
+    .why-data .why-details:last-child {
         padding-left: 0;
         padding-right: 0;
     }
-    .horo-details-1 { 
+
+    .horo-details-1 {
         justify-content: center;
     }
-    .horo-details-2 { 
+
+    .horo-details-2 {
         justify-content: center;
     }
+
     .horo-data {
         margin: 10rem 0 0 0;
         row-gap: 10rem;
     }
+
     .horo-data img {
         width: 17rem;
         height: 17rem;
     }
+
     #horoscope h1 {
         font-size: 8.4rem;
     }
+
     #appointment {
         text-align: center;
     }
+
     .apmt-set {
         margin-bottom: 20rem;
     }
+
     .apmt-data {
         text-align: left;
         margin-left: 11.5rem;
     }
+
     .member-data {
         justify-content: center;
     }
+
     .mem-padi {
         margin: 0 8rem
     }
+
     #membership .sub-title {
         font-size: 8rem;
     }
+
     #become .sub-title {
         font-size: 8rem;
     }
-    #about .sub-title{
+
+    #about .sub-title {
         font-size: 8rem;
     }
-}   
+}
 
 /* 1rem = 8px md*/
 @media screen and (min-width: 768px) {
@@ -847,28 +967,31 @@ header {
     .about-data-detail {
         text-align: center;
     }
-    .why-details{
+
+    .why-details {
         padding: 0 5.5rem;
     }
-    
-    .why-data .why-details:first-child{
+
+    .why-data .why-details:first-child {
         padding-right: 5.5rem;
         padding-left: 0;
     }
-    
-    .why-data .why-details:last-child{
+
+    .why-data .why-details:last-child {
         padding-left: 5.5rem;
         padding-right: 0;
     }
+
     .apmt-data {
         text-align: left;
         margin-left: 22.5rem;
     }
+
     .mem-padi {
         margin: 0 19rem
     }
-   
-    
+
+
 }
 
 /* 1rem = 8px lg*/
@@ -892,27 +1015,33 @@ header {
         margin: 4rem;
         padding: 4rem 5rem
     }
+
     .apmt-set {
         margin-bottom: 20rem;
         text-align: center;
     }
+
     #appointment {
         text-align: left;
     }
+
     .apmt-data {
         text-align: left;
         margin-left: 0;
     }
+
     .mem-sub-tit {
         background-color: transparent;
     }
+
     .member-data {
         justify-content: center;
     }
+
     .mem-padi {
         margin: 0 35rem
     }
- 
+
 }
 
 /* 1rem = 9px xl*/
@@ -975,53 +1104,64 @@ header {
     .ser-img {
         padding: 5rem 6rem;
     }
-     .horo-sub-data h4 {
+
+    .horo-sub-data h4 {
         font-size: 4rem;
     }
+
     .horo-sub-data p {
         font-size: 1.2rem;
     }
+
     .horo-data img {
         width: 15rem;
         height: 15rem;
     }
-    .horo-details-1 { 
-            margin-right: 0;
+
+    .horo-details-1 {
+        margin-right: 0;
     }
-    .horo-details-2 { 
+
+    .horo-details-2 {
         margin-left: 0;
     }
-    
-    .horo-details-2 { 
+
+    .horo-details-2 {
         justify-content: left;
     }
+
     .horo-data {
         margin: 10rem 0 5rem 0;
         row-gap: 10rem;
         justify-content: space-between;
     }
-    #horoscope h1{
+
+    #horoscope h1 {
         max-width: 105rem;
     }
-    
+
     .member-data {
         column-gap: 0rem;
     }
+
     .mem-data-cols {
         padding: 5rem;
     }
+
     .mem-padi {
         padding: 9rem;
         margin: 0 0rem;
     }
+
     .mem-btn {
-        padding: 1.6rem 7.7rem;    
+        padding: 1.6rem 7.7rem;
     }
+
     .member-data {
         column-gap: 0;
         row-gap: 0rem;
     }
-   
+}
 
 /* 1rem = 9px xxl*/
 @media screen and (min-width: 1400px) {
@@ -1071,41 +1211,50 @@ header {
         text-align: left;
         margin: 0;
     }
+
     .super-data-img {
         margin-top: 0rem;
     }
+
     .ser-img {
         margin: 7.5rem;
         padding: 5rem 6rem;
     }
+
     .super-data-img .col-xxl-3 img {
         margin-bottom: 0;
     }
-  
-    .horo-sub-data h4{ 
+
+    .horo-sub-data h4 {
         font-size: 5.4rem;
     }
-    .horo-sub-data p{
+
+    .horo-sub-data p {
         font-size: 1.8rem;
     }
 
-    .horo-details-1 { 
+    .horo-details-1 {
         margin-right: auto;
     }
-    .horo-details-2 { 
+
+    .horo-details-2 {
         margin-left: auto;
     }
+
     .horo-data img {
         width: 16rem;
         height: 16rem;
-    }   
+    }
+
     .apmt-set {
         margin-bottom: 0;
         text-align: left;
     }
+
     .mem-data-cols {
         padding: 3rem;
     }
+
     .mem-padi {
         padding: 6.7rem;
     }
@@ -1157,13 +1306,10 @@ header {
     .super-data-img .col-xxl-3 img {
         margin-bottom: 0;
     }
+
     .mem-data-cols {
         padding: 4.8rem;
     }
 
-    
+
 }
-
-
-
-
