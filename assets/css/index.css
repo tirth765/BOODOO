@@ -368,7 +368,7 @@ header {
 
 /* ********************************************** */
 
-/* ******************appointment***************** */
+/* ******************Appointment***************** */
 
 #appointment {
     padding: 200px 0;
@@ -423,7 +423,7 @@ header {
 
 /* ********************************************** */
 
-/* ********************become******************** */
+/* ********************Become******************** */
 
 #become {
     padding: 70px 0;
@@ -455,7 +455,7 @@ header {
 
 /* ********************************************** */
 
-/* ******************membership***************** */
+/* ******************Membership***************** */
 
 #membership {
     text-align: center;
@@ -525,7 +525,7 @@ header {
 /* ********************************************** */
 
 
-/* ********************client******************** */
+/* ********************Client******************** */
 
 #client {
     padding: 200px 0;
@@ -544,10 +544,12 @@ header {
     height: 100%;
     padding: 0 7.8rem;
 }
+
 #client .swiper-button-next,
-#client  .swiper-button-prev {
+#client .swiper-button-prev {
     color: white;
 }
+
 #client .swiper-slide {
     text-align: left;
     font-size: 18px;
@@ -559,13 +561,13 @@ header {
 #client .swiper-slide img {
     display: block;
     width: 100%;
-    height:50rem;
+    height: 50rem;
     object-fit: cover;
 }
 
 .arrow {
     text-align: center;
-   margin: 10rem 0 15rem 0;
+    margin: 10rem 0 15rem 0;
 }
 
 .client-detail {
@@ -581,7 +583,7 @@ header {
     left: -22px;
     bottom: 0;
     right: 0;
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .client-detail p {
@@ -594,6 +596,111 @@ header {
     font-size: 2.4rem;
 }
 
+
+/* ********************************************** */
+
+/* *********************Blog********************* */
+
+#blog {
+    padding: 200px 0;
+    background-image: linear-gradient(#000000 40%, var(--primary-color) 200%);
+    color: white;
+}
+
+#blog .main-title,
+#blog .sub-title {
+    text-align: center;
+}
+
+#blog .row .col-3 {
+    padding: 0;
+}
+
+.blog-imges {
+    margin-top: 8rem;
+}
+
+.blog-data {
+    padding: 2.5rem;
+}
+
+.blog-data img {
+    object-fit: cover;
+    width: 100%;
+    height: 45rem;
+}
+
+.blog-detail {
+    margin-top: 6rem;
+}
+
+.blog-detail h3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.blog-detail p {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.blog-detail span {
+    font-size: 1.8rem;
+    color: #0085FF;
+}
+
+/* ********************************************** */
+
+/* ********************footer******************** */
+
+footer {
+    padding: 200px 0;
+    background-image: linear-gradient(0, #000000 40%, var(--primary-color) 200%);
+    color: white;
+}
+
+footer p {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    max-width: 25rem;   
+}
+
+footer h3 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-data {
+    padding-top: 8rem;
+    border-top: 1px solid white;
+    justify-content: space-between;
+}
+
+.footer-img {
+    margin-right: 2rem;
+}
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+  }
+  
+  .google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 2rem;
+    position: absolute;
+  }
+
+  .maps {
+    width: 32rem;
+    height: 22.5rem;
+    /* width: 100rem;
+    height: 100rem; */
+  }
 
 /* ********************************************** */
 
@@ -760,6 +867,14 @@ header {
     #about .sub-title {
         font-size: 7rem;
     }
+
+    #client .swiper {
+        padding: 0rem;
+    }
+
+    #client .sub-title {
+        font-size: 7rem;
+    }
 }
 
 /* 1rem = 8px sm */
@@ -924,6 +1039,14 @@ header {
     #about .sub-title {
         font-size: 8rem;
     }
+
+    #client .swiper {
+        padding: 0rem;
+    }
+
+    #client .sub-title {
+        font-size: 7rem;
+    }
 }
 
 /* 1rem = 8px md*/
@@ -991,6 +1114,9 @@ header {
         margin: 0 19rem
     }
 
+    #client .swiper {
+        padding: 0 2rem;
+    }
 
 }
 
@@ -1042,6 +1168,9 @@ header {
         margin: 0 35rem
     }
 
+    #client .sub-title {
+        font-size: 10rem;
+    }
 }
 
 /* 1rem = 9px xl*/
@@ -1161,6 +1290,14 @@ header {
         column-gap: 0;
         row-gap: 0rem;
     }
+
+    #client .swiper {
+        padding: 0 7.8rem;
+    }
+
+    #client .sub-title {
+        font-size: 10rem;
+    }
 }
 
 /* 1rem = 9px xxl*/
@@ -1258,6 +1395,10 @@ header {
     .mem-padi {
         padding: 6.7rem;
     }
+
+    #client .sub-title {
+        font-size: 12rem;
+    }
 }
 
 /* 1rem = 10px */
@@ -1311,5 +1452,7 @@ header {
         padding: 4.8rem;
     }
 
-
+    #client .sub-title {
+        font-size: 12rem;
+    }
 }
