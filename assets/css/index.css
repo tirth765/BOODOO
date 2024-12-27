@@ -687,20 +687,31 @@ footer h3 {
     position: relative;
   }
   
-  .google-map iframe {
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 2rem;
-    position: absolute;
-  }
+.google-map iframe {
+height: 100%;
+width: 100%;
+left: 0;
+top: 2rem;
+position: absolute;
+}
 
-  .maps {
-    width: 32rem;
-    height: 22.5rem;
-    /* width: 100rem;
-    height: 100rem; */
-  }
+.maps {
+width: 32rem;
+height: 22.5rem;
+/* width: 100rem;
+height: 100rem; */
+}
+
+.end  {
+    border-bottom: 1px solid white;
+}
+
+.end p{
+    max-width: 32rem;
+    margin: 8rem auto;
+    
+}
+
 
 /* ********************************************** */
 
@@ -731,6 +742,9 @@ footer h3 {
         width: 21rem;
         height: 5rem;
 
+    }
+    #services div h1 {
+        font-size: 6.4rem;
     }
 
     #about .my-btn {
@@ -832,7 +846,7 @@ footer h3 {
     }
 
     #horoscope h1 {
-        font-size: 7rem;
+        font-size: 5rem;
     }
 
     #appointment {
@@ -857,11 +871,11 @@ footer h3 {
     }
 
     #membership .sub-title {
-        font-size: 7rem;
+        font-size: 5rem;
     }
 
     #become .sub-title {
-        font-size: 7rem;
+        font-size: 5rem;
     }
 
     #about .sub-title {
@@ -874,6 +888,23 @@ footer h3 {
 
     #client .sub-title {
         font-size: 7rem;
+    }
+    .footer-data {
+         text-align: center;
+         row-gap: 12rem;
+     }
+     footer p {
+         margin: 2rem auto;
+     }
+     .maps{
+         margin:  0 auto; 
+     }
+     #membership .row {
+        margin: 0 0px;
+    }
+    .about-data-img img {
+        width: 100%;
+        padding-right: 0;
     }
 }
 
@@ -1025,7 +1056,7 @@ footer h3 {
     }
 
     .mem-padi {
-        margin: 0 8rem
+        margin: 0 2rem
     }
 
     #membership .sub-title {
@@ -1047,6 +1078,28 @@ footer h3 {
     #client .sub-title {
         font-size: 7rem;
     }
+    .footer-data {
+        text-align: center;
+        row-gap: 12rem;
+    }
+    footer p {
+        margin: 2rem auto;
+    }
+    .maps{
+        margin:  0 auto;
+    }
+    #membership .row {
+        margin: 0 0px;
+    }
+    .about-data-img img {
+        width: 69.2rem;
+    }
+    #services div h1 {
+        font-size: 8.4rem;
+    }
+    
+    
+    
 }
 
 /* 1rem = 8px md*/
@@ -1111,13 +1164,26 @@ footer h3 {
     }
 
     .mem-padi {
-        margin: 0 19rem
+        margin: 0 15rem;
     }
 
     #client .swiper {
         padding: 0 2rem;
     }
 
+    .footer-data {
+        justify-content: center;
+        row-gap: 10rem;
+    }
+        /* #membership .row {
+            margin: 0 -40px;
+        } */
+
+    .about-data-img img {
+        width: 72.9rem;
+    }
+    
+  
 }
 
 /* 1rem = 8px lg*/
@@ -1165,7 +1231,7 @@ footer h3 {
     }
 
     .mem-padi {
-        margin: 0 35rem
+        margin: 0 27rem;
     }
 
     #client .sub-title {
@@ -1297,6 +1363,15 @@ footer h3 {
 
     #client .sub-title {
         font-size: 10rem;
+    }
+    .footer-data {
+        justify-content: space-between;
+        row-gap: 0;
+        text-align: left;
+    }
+    footer p {
+        margin: 0;
+        margin-top: 2rem;
     }
 }
 
